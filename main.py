@@ -34,5 +34,4 @@ if __name__ == "__main__":
 
     # 4. Interactuar con un Obstáculo (Dependencia)
     obstaculo = Obstaculo(1.2)
-    distancia_detectada = obstaculo.calcularDistancia()
-    print(f"Obstáculo detectado a una distancia de {distancia_detectada} metros.")
+    limpiador.analizar_obstaculo(obstaculo)
